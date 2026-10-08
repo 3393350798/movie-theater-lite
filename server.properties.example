@@ -1,0 +1,8 @@
+# 服务端启动时会在控制台询问存储模式。
+# storage 可选：mysql（严格数据库）/ auto（MySQL 优先，失败回退文件）/ file（本地文件）
+storage=auto
+server.port=5050
+data.dir=server-data
+db.url=jdbc:mysql://localhost:3306/movie_theater?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai&characterEncoding=utf8
+db.user=root
+db.password=

@@ -1,0 +1,11 @@
+out/
+sources.txt
+client-cache/
+server-data/
+server-data-store-smoke/
+javafx-lib/
+vlcj-lib/
+release/
+*.class
+*.log
+server.properties
